@@ -10,10 +10,10 @@ This example requires python 3 to run
 python3 subCipher.py -i <input file> -o <output file> -s <letter shift> <encrypt/decrypt>
 ### Example
 Encrypt a plaintext file with a -3 shift and store the output in the ciphertext.txt file:
-python3 -i plaintext.txt -o ciphertext.txt -s -3 encrypt
+'python3 -i plaintext.txt -o ciphertext.txt -s -3 encrypt'
 
 Decrypt a ciphertext file with a -3 shift and store the output in the decoded.txt file:
-python3 -i ciphertext.txt -o decoded.txt -s -3 encrypt
+'python3 -i ciphertext.txt -o decoded.txt -s -3 encrypt'
 
 ## Files
 subCipher.py : main program
